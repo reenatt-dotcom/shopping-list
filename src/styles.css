@@ -1,0 +1,66 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  * {
+    font-family: Arial;
+    background-color: pink;
+  }
+  .list {
+    border: 2px dashed black;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    width: 30%;
+    margin: 30px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    background-color: white;
+  }
+  input {
+    background-color: white;
+  }
+  button {
+    background-color: white;
+  }
+  .white {
+    background-color: white;
+  }
+  ul,
+  li {
+    background-color: white;
+    list-style-type: none;
+    /* margin-right: 100px; */
+  }
+  .delete {
+    border: none;
+    color: red;
+    font-weight: bold;
+    /* padding-left: 100px; */
+    /* border: 2px solid rgb(109, 89, 89); */
+  }
+  li {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* text-align: center; */
+    /* border: 2px solid orange; */
+    margin-left: 70px;
+    margin-right: 110px;
+  }
+  /* ul { */
+  /* border: 2px solid yellow; */
+  /* } */
+  
